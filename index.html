@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Green Screen</title>
+</head>
+<body>
+  <h1 id = "title">Green Screen</h1>
+  
+  <p class = "center"><b>About:</b> Create a green screen composite image</p>
+  
+  <br>
+  
+  <p><b>Foreground Image</b></p>
+  <canvas id = "fgCan"></canvas>
+  <input type = "file"
+         accept = "image/*"
+         multiple = "false"
+         id = "fgFile"
+         onchange = "loadForegroundFile()">
+  <br>
+  
+  <p><b>Background Image</b></p>
+  <canvas id = "bgCan"></canvas>
+  <input type = "file"
+         accept = "image/*"
+         multiple = "false"
+         id= "bgFile"
+         onchange = "loadBackgroundFile()">
+
+  <p>  
+    <input type = "button"
+         value = "Create Composite"
+         onclick = "doGreenScreen()">
+  
+    <input type = "button"
+         value = "Clear Images"
+         onclick = "clearCanvas()">
+  </p>
+  
+<!--Uses the Duke learn to program API -->
+  <script src = "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+</body>
+</html>
