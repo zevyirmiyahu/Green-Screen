@@ -1,0 +1,27 @@
+#title {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  border: solid green 3px;
+  padding: 5px;
+}
+
+#fgCan {
+  background-color: white;
+  border: solid green 4px;
+}
+
+#bgCan {
+  background-color: white;
+  border: solid green 4px;
+}
+#testCan {
+  background-color: white;
+  border: solid green 4px;
+}
+
+body {
+  background-color: #c2ffbc;
+}
