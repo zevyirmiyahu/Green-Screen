@@ -1,4 +1,5 @@
-* Simple javaScript program that handles an input of two pictures
+
+/* Simple javaScript program that handles an input of two pictures
 * and combindes them using a green screen algorithm.
 */
 var fgImg = null; //intialize to null to check if loaded
